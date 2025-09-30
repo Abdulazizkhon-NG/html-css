@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Таблица страница</title>
-</head>
-<body>
-
-</body>
-</html>
