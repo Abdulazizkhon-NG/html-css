@@ -1,0 +1,29 @@
+body{
+    background-color: beige; 
+    font-family: 'Courier New';
+}
+
+
+.qwert {
+    background-color: white;
+    width: 600px;
+    box-shadow: 1px 1px #888888;
+    position: relative;
+    margin: 0 auto;
+    bottom: -200px;
+}
+
+h1{
+    text-align: center;
+}
+.perviy{
+    width: 90%;
+}
+  
+h3{
+    margin-left: 20px;
+}
+ 
+.tochka{
+    border-top: 2px dotted #000;
+}
