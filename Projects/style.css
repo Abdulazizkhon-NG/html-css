@@ -53,6 +53,12 @@ footer{
 
     
 }
+
+.footer-Word{
+    height: 20px;
+    width: 15px;
+    
+}
 .oppos{
 
     color:#86928b;
@@ -62,4 +68,6 @@ footer{
 .apps{
     height: 20px;
     width: 20px;
+    padding: 0 20px 0 20px;
+
 }
