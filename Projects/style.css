@@ -1,73 +1,148 @@
-body{
+body {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
-header{
+header {
     background-color: #d4e8d9;
     height: 60px;
     display: flex;
-
     align-items: center;
 }
-.box{
+
+.box {
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.header1{
+
+.header1 {
     color: green;
     display: flex;
-
 }
-.star{
+
+.star {
     width: 40px;
     height: 40px;
 }
 
-.qwert{
+.qwert {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 40px;
     justify-content: end;
 }
-.corzina{
+
+.corzina {
     width: 20px;
     height: 20px;
 }
 
-main{
-   background-color: rgb(127, 203, 229);
-   width: 100%;
-   height: 100px;
-}
-
-footer{
-    background-color: #d4e8d9;
-    display: flex;
-    justify-content: space-between;
+main {
+    background-color: white;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 300px 120px;
     margin: 0 auto;
-    align-items:baseline;
-    padding: 0 160px 0 160px;
-
-    
+    font-family: 'Raleway', sans-serif;
 }
 
-.footer-Word{
+.div-dama{
+    background-color: #d4e8d9;
+    padding: 20px;
+    font-family:"Raleway", sans-serif;
+    justify-content: left;
+    box-sizing: border-box;
+    display:inline-block
+}   
+.name-dama{
+    color: #86928b;
+}
+.main-name{
+    margin-top: -10px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+}
+.main-product{
+    margin-top: -10px;
+}
+
+.price-dama{
+    color: #3D775C;
+    width: 200px;
+    height: 20pxs;
+}
+.main-korzina{
+    border: 1px solid #3D775C;
+    width: 200px;
     height: 20px;
-    width: 15px;
-    
+    padding: 5px;
+    color: #3D775C;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    text-align: center;
+
 }
-.oppos{
-
-    color:#86928b;
-
+.main-korzina:hover{
+    background-color: #5f8c69; 
+    color: white;             
+    border: none;             
+    cursor: pointer;
+}
+footer {
+    background-color: #d4e8d9;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 120px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+.inform{
+    width: 100%;
+}
+.republik{
+    width: 100%;
+}
+.years{
+    width: 100%;
+}
+.profession{
+    width: 100%;
+}
+.ikon{
+    width: 100%;
+}
+.footer-InkHouse{
+    color: #3D775C;
+    font-weight: 100;
+    font-size: 18px;
 }
 
-.apps{
-    height: 20px;
-    width: 20px;
-    padding: 0 20px 0 20px;
+.footer-Word {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 100;
+    font-size: 18px;
+}
 
+.oppos {
+    color: #86928b;
+}
+
+.apps {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    padding: 0;
+    vertical-align: middle;
 }
